@@ -27,5 +27,4 @@ app.UseEndpoints(endpoints =>
     endpoints.MapReverseProxy();  // 🛑 This Enables YARP!
 });
 
-
 app.Run();
